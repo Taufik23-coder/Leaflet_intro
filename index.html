@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+    body {
+        padding: 0%
+        margin: 0%;
+    }
+    #map {position: absolute;top: 0; bottom: 0; left: 0;right: 0;}
+    .coordinate {
+        position: absolute;
+        bottom: 10px;
+        right: 50%
+    }
+
+    .leaflet-popup-content-wrapper{
+        background-color: aqua;
+        color: brown;
+    }
+    </style> 
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="map">
+        <div class="leaflet-control coordinate"></div>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
